@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DriveService } from '../drive.service';
-import { DriveFile } from './driveFile'; 
+import { DriveFile } from './driveFile';
 
 @Component({
   selector: 'app-default',

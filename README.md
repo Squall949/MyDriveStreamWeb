@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+==================================================================================================================================================
+
+1. Preview of videos grid
+
+![](./src/assets/preview.png)
+
+2. TO-DO: click a video and display it with expanded frame. 
