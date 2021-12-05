@@ -1,10 +1,15 @@
 <mat-grid-list cols="3">
-    <mat-grid-tile *ngFor="let file of files">
+    <mat-grid-tile *ngFor="let file of files" (click)="view(file.FileID)">
         <mat-card class="card">
-        <img mat-card-image src={{file.Thumbnail}}>
-        <mat-card-content>
-          <p>{{file.Name}}</p>
-        </mat-card-content>
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Pexels Videos</mat-card-title>
+            <mat-card-subtitle>Demo clip</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src={{file.Thumbnail}} class="thumbnail">
+          <mat-card-content class="fileName">
+            <p>{{file.Name}}</p>
+          </mat-card-content>
       </mat-card>
     </mat-grid-tile>
   </mat-grid-list>

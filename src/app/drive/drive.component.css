@@ -4,8 +4,25 @@ mat-grid-list {
 
 mat-grid-tile {
     background: lightblue;
+    cursor: pointer;
   }
 
   .card {
-    max-width: 400px;
+    width: 250px;
+    max-height: 80%;
   }
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .fileName {
+    height: 50px;
+  }
+  
+  .videoFrame {
+    width: 50vw;
+    height:50vh;
+  }
+

@@ -28,8 +28,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ==================================================================================================================================================
 
-1. Preview of videos grid
+1. Preview of videos grid.
 
 ![](./src/assets/preview.png)
 
-2. TO-DO: click a video and display it with expanded frame. 
+2. click a video and display it with expanded frame.
+
+![](./src/assets/preview2.png) 
